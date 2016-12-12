@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'capistrano', '~> 3.7'
 gem 'capistrano-bundler', '~> 1.2'
 gem 'capistrano-rails', '~> 1.2'
+gem 'capistrano-rbenv', '~> 2.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
