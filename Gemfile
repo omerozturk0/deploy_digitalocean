@@ -14,6 +14,7 @@ gem 'capistrano', '~> 3.7'
 gem 'capistrano-bundler', '~> 1.2'
 gem 'capistrano-rails', '~> 1.2'
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
+gem "highline"
 
 group :development, :test do
   gem 'byebug', platform: :mri
